@@ -7,11 +7,6 @@ From: nvidia/cuda:7.5-cudnn5-devel-ubuntu14.04
     apt-get update
     DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
     
-    
-    # Update list of available packages, then upgrade them
-    apt-get update
-    DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
-
     # Workaround for https://github.com/keras-team/keras/issues/9567
     apt-get install -y --allow-downgrades --no-install-recommends \
         libcudnn7=7.0.5.15-1+cuda9.0 libcudnn7-dev=7.0.5.15-1+cuda9.0 
