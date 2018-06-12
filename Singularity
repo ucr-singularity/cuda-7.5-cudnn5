@@ -12,3 +12,7 @@ From: nvidia/cuda:7.5-cudnn5-devel-ubuntu14.04
         libhdf5-serial-dev protobuf-compiler
     apt-get install --no-install-recommends -y libboost-all-dev
     apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
+
+    #Neuro_Imaging
+    pip install nibabel
+    pip install niftynet
