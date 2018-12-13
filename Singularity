@@ -15,4 +15,4 @@ From: nvidia/cuda:7.5-cudnn5-devel-ubuntu14.04
 
     #Neuro_Imaging
     pip install nibabel
-    #pip install niftynet
+    pip install niftynet
